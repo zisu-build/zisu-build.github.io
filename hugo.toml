@@ -1,4 +1,16 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://zisu-build.github.io/'
+languageCode = 'ko-kr'
+title = '👋 Build Something'
 theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowToc = true
+  defaultTheme = "auto" 
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
